@@ -1,13 +1,29 @@
-\documentclass{article}
+\documentclass[12pt]{article}
 
-\usepackage{amsmath}
-\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{geometry}
 
 \title{People and Papers List}
 \author{Tyler Trogden}
 
 \begin{document}
-\maketitle
+    \maketitle
 
+    \centering
+        \begin{tabular}{|p{2cm}|c|c|}
+            \hline
+            & People & Papers \\
+            \hline
+            \centering\multirow{2}{*}{\textbf{Topology}} & & \\
+            & Leonhard Euler & \textit{Bridges of Königsberg} \\
+            & Henrí Poincaré & \textit{Analysis Situs} \\
+            & Herbert Edelsbrunner & \textit{Computational Topology} \\
+            \hline
+            \centering\multirow{2}{*}{\textbf{Geometry}} & & \\
+            & Bernhard Riemann & \textit{On the Hypotheses which lie at the Bases of Geometry} \\
+            & C.R. Rao & \textit{Cramér-Rao Lower Bound and Information Geometry} \\
+            & Shun'ichi Amari & \textit{Information Geometry} \\
+            \hline
+        \end{tabular}
 
 \end{document}
